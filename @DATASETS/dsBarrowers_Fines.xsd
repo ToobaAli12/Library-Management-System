@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsBarrowers_Fines" targetNamespace="http://tempuri.org/dsBarrowers_Fines.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsBarrowers_Fines.xsd"
+	xmlns:mstns="http://tempuri.org/dsBarrowers_Fines.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsBarrowers_Fines" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="tblBarrowers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BarrowerID" type="xs:string" minOccurs="0" />
+							<xs:element name="Fullname" type="xs:string" minOccurs="0" />
+							<xs:element name="CourseName" type="xs:string" minOccurs="0" />
+							<xs:element name="LevelName" type="xs:string" minOccurs="0" />
+							<xs:element name="TotalFines" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
